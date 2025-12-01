@@ -148,7 +148,7 @@ function renderWeatherCard(weather) {
 function updateMapCenter() {
     if (!state.userLocation) return;
 
-    const mapElement = document.getElementById('map');
+    const mapElement = document.getElementById('mapContent');
     const { lat, lng } = state.userLocation;
 
     // Update placeholder with user coordinates
